@@ -1,0 +1,5 @@
+# Nigerian Currency Converter(Very Advanced)
+Amount = float(input("kindly input the amount:"))
+Us_Dollars= float(input("kindly input the value of exchange rate:"))
+British_Pounds= float(input("kindly input the exchange rate in British pounds:"))
+print(f"The amount of the Nigerian currency is \"{Amount}\" the exchange rate is {Us_Dollars} and the exchange rate in British pound is {British_Pounds}")

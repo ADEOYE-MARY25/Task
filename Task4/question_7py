@@ -1,0 +1,16 @@
+
+# Task 7
+#list multiplication
+#city name list
+cities_name =["Ogun","Oyo","Osun", "Ibadan", "Jos"]
+# replacement of the thrid name
+city_name_reqt= str(input("Input a city name of your choice: "))
+# remove osun
+cities_name.remove("Osun")
+# insert a new city name
+cities_name.insert(2, city_name_reqt)
+# remove last city
+cities_name.remove("Jos")
+# insert a new city at the begining of the cities
+cities_name.insert(9,"Kano")
+print(cities_name)

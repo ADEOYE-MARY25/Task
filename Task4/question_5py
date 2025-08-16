@@ -1,0 +1,20 @@
+# Task5:
+#  Student Score Tracker
+#Create a student name that is empty list
+#list_name =[]
+#list_score =[]
+student_name =[]
+student_score= []
+name_1= input("kindly input first name of student")
+name_2= input("kindly input student second name")
+name_3= input("kindly input student second name")
+
+score_1= int(input("enter score for sudent one: "))
+score_2= int(input("enterscore for student one:"))
+score_3= int(input("enter score for student one:"))
+
+# Append student name
+student_name.append(name_1)
+student_name.append(name_2)
+student_name.append(name_3)
+print(f"\nName:{student_name}\nscore:{student_score}")
